@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 325px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    padding: 50px 250px 75px;
+}
+
+.hero-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-sub {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-right: 25px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 25px;
+    border: none;
+}
+
+.right-hero {
+    background-color: grey;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+.upper,
+.lower {
+    display: flex;
+    justify-content: center;
+}
+
+.lower {
+    gap: 20px;
+    padding: 30px 350px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.box-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-inner {
+    width: 150px;
+    height: 150px;
+    border: solid 4px #3882f6;
+    border-radius: 8px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 80px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-source {
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.outer-call {
+    padding: 60px 175px;
+}
+
+.call {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    padding: 45px 120px;
+    border-radius: 10px;
+}
+
+.call-head {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.call-button {
+    border: solid 1px #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
